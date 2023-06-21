@@ -8,4 +8,44 @@ body {
   padding: 0;
   background-color: black;
   color: white;
+}
+
+:root {
+  --yellow-color:#FFFF00;
+  --yellow-light:#f8f184;
+  --blue-color:#18587d;
+  --white-color:#fff;
+  --gredient-white: #eddebf75;
+  --gredient-red: #89000977;
+  --black-color:#000;
+}
+
+@font-face {
+  font-family: "rajdhani";
+  src: url(../fonts/Rajdhani-Medium.ttf);
+  font-family: "space grotesk";
+  src: url(../fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+/*#game{padding-left:10%;}
+#home{padding-left:40%;padding-right: 10%;}*/
+header {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header img {
+  margin-left: 10%;
+}
+header #home {
+  margin-left: 40%;
+}
+header #game {
+  margin-left: 5%;
+}
+
+.sec5 img {
+  width: 90%;
 }/*# sourceMappingURL=styles.css.map */

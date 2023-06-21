@@ -6,3 +6,23 @@ body{
     background-color: black;
     color:white;
 }
+
+:root{
+    --yellow-color:#FFFF00;
+    --yellow-light:#f8f184;
+    --blue-color:#18587d;
+    --white-color:#fff;
+    --gredient-white: #eddebf75;
+    --gredient-red: #89000977;
+    --black-color:#000;
+  }
+  
+  @font-face {
+    font-family: 'rajdhani';
+    src: url(../fonts/Rajdhani-Medium.ttf);
+    font-family: 'space grotesk';
+    src: url(../fonts/SpaceGrotesk-VariableFont_wght.ttf);
+  }
+    
+
+ 
