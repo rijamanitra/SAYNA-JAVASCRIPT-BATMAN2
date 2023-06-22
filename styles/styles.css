@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 body {
@@ -8,6 +10,10 @@ body {
   padding: 0;
   background-color: black;
   color: white;
+  background: url(/illustrations/Illustrations1/Bathome1.png);
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size: contain;
 }
 
 :root {
@@ -21,11 +27,26 @@ body {
 }
 
 @font-face {
-  font-family: "rajdhani";
-  src: url(../fonts/Rajdhani-Medium.ttf);
-  font-family: "space grotesk";
+  font-family: "space-grotesk";
   src: url(../fonts/SpaceGrotesk-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: "rajdhani-medium";
+  src: url(../fonts/Rajdhani-Medium.ttf);
+}
+p {
+  font-family: "space-grotesk";
+  font-size: 18px;
+  text-align: justify;
+  margin: 5% 0%;
+}
+
+h2 {
+  font-family: "rajdhani-medium";
+  font-size: 32px;
+  margin: 2% 0%;
+}
+
 /*#game{padding-left:10%;}
 #home{padding-left:40%;padding-right: 10%;}*/
 header {
@@ -35,17 +56,74 @@ header {
 header a {
   text-decoration: none;
   color: white;
+  font-family: "space-grotesk";
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
 }
 header img {
   margin-left: 10%;
 }
 header #home {
-  margin-left: 40%;
+  margin-left: 50%;
 }
 header #game {
   margin-left: 5%;
 }
 
+.sec1 p {
+  text-align: center;
+  margin: 20% 26% 0% 30%;
+}
+.sec1 h1 {
+  text-align: center;
+}
+.sec1 div {
+  margin-top: 5%;
+  text-align: center;
+  padding-bottom: 15%;
+}
+.sec1 a {
+  margin-left: 5%;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(80deg, rgba(255, 255, 255, 0.466), rgba(255, 0, 0, 0.46));
+  padding: 1.5% 3.5%;
+  opacity: 70%;
+}
+.sec1 .flechedown {
+  margin: 0% 50% 0 50%;
+}
+
+.sec2 {
+  margin-top: 15%;
+}
+.sec2 .conteneur {
+  display: flex;
+  flex-direction: row;
+}
+.sec2 div {
+  padding-left: 1%;
+}
+.sec2 img {
+  width: 80%;
+}
+
 .sec5 img {
+  width: 90%;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 3.5%;
+  top: 30%;
+}
+.scroll a {
+  padding-top: 25%;
+}
+.scroll img {
   width: 90%;
 }/*# sourceMappingURL=styles.css.map */
