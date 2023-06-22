@@ -1,11 +1,19 @@
+
 html {box-sizing: border-box;
-font-size: 100%;}
+font-size: 100%;padding-left: 12%;padding-right: 12%;}
 body{
     margin: 0;
     padding: 0;
     background-color: black;
     color:white;
+    background: url(/illustrations/Illustrations1/Bathome1.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: contain;
+      
 }
+
+
 
 :root{
     --yellow-color:#FFFF00;
@@ -18,11 +26,19 @@ body{
   }
   
   @font-face {
-    font-family: 'rajdhani';
-    src: url(../fonts/Rajdhani-Medium.ttf);
-    font-family: 'space grotesk';
+   
+    font-family: 'space-grotesk';
     src: url(../fonts/SpaceGrotesk-VariableFont_wght.ttf);
+    
   }
+
+  @font-face {
+    font-family: 'rajdhani-medium';
+    src: url(../fonts/Rajdhani-Medium.ttf);
+  }
+
+  p{font-family: 'space-grotesk';font-size: 18px;text-align: justify;margin: 5% 0%;}
+  h2{font-family:'rajdhani-medium' ;font-size: 32px;margin: 2% 0%;}
     
 
  
