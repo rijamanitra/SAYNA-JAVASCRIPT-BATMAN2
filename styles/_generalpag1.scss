@@ -1,6 +1,6 @@
 
 html {box-sizing: border-box;
-font-size: 100%;padding-left: 12%;padding-right: 12%;}
+font-size: 100%;padding-left: 5%;padding-right: 5%;}
 body{
     margin: 0;
     padding: 0;
@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-color: #000;
     background-size: contain;
+    border: 1px solid var( --gredient-white);
       
 }
 
@@ -18,7 +19,7 @@ body{
 :root{
     --yellow-color:#FFFF00;
     --yellow-light:#f8f184;
-    --blue-color:#18587d;
+    --blue-color:#19587dfe;
     --white-color:#fff;
     --gredient-white: #eddebf75;
     --gredient-red: #89000977;
@@ -37,8 +38,8 @@ body{
     src: url(../fonts/Rajdhani-Medium.ttf);
   }
 
-  p{font-family: 'space-grotesk';font-size: 18px;text-align: justify;margin: 5% 0%;}
-  h2{font-family:'rajdhani-medium' ;font-size: 32px;margin: 2% 0%;}
+  p{font-family: 'space-grotesk';font-size: 18px;text-align: justify;margin: 5% 10% 5% 10%;}
+  h2{font-family:'rajdhani-medium' ;font-size: 32px;margin: 2% 10%;}
     
 
  

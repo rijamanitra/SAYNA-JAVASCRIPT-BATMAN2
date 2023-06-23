@@ -1,0 +1,26 @@
+.guillemetg{ padding-left: 10%;}
+p{color: blueviolet;}
+
+
+
+
+
+/*.guillemetgauche{
+  margin: 0 0;
+}
+
+.guillemetgauche img{
+  width: 5%;margin:  10% 0 0% 10%;
+}
+
+.citation{
+  font-size: 15px;text-align: center;
+}
+
+.auteurcitation{
+  font-size: 10px;text-align: center;
+}
+
+.guillemetdroite img{
+  width: 5%;margin:  0% 0% 0% 85%;
+}*/

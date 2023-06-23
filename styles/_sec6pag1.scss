@@ -1,0 +1,16 @@
+.sec6{
+    .conteneur{display: flex;flex-direction: row;margin:  10% 5%;}
+    .text {background:linear-gradient(90deg,var( --gredient-white),var( --blue-color) );
+        color:white;font-size: 12px;
+        font-family: 'space-grotesk';margin-right: 10%;
+        padding: 2% 2%;text-align: justify;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;}
+    h4{  color:white;font-size: 12px;font-family: 'space-grotesk'} 
+    span{color: yellow;}  
+    .fleche{height: 50%;padding-top:12% ;}
+    .bathomeimg{margin-left: 10%;}
+    .bandeannonce{width: 90%;margin: 5%;}
+     
+
+}

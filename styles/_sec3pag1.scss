@@ -1,1 +1,7 @@
-.sec3{}
+.sec3{  position: relative; padding-top: 5%;
+
+    .conteneur{display: flex;flex-direction: row;padding-left: 10%;}
+   
+    img{width: 80%;}
+    #deco1{width: 12%;position: absolute;top: 0%;left: 14%;}
+}

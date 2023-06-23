@@ -1,0 +1,25 @@
+.sec7{background: linear-gradient(50deg,var( --gredient-white),var( --blue-color) )
+    ;margin: 0 -16%;
+    padding:5% 20%;
+h2{margin: 10% 30%;}
+h3 {font-family: 'space-grotesk';}
+#mail, #msg{ background-color: transparent;color: white;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: white; width: 80%;
+    height: 35px;}
+#choix{font-size: 16px;margin-bottom: 0%;}    
+.mini-conteneur {display: flex;flex-direction: row;border-bottom: 2px solid white;width: 80%;
+} 
+.triangle{ width: 3%;height: 3%; transform: rotate(90deg);padding-top: 10%;}  
+}
+
+#confirmer{ background: linear-gradient(80deg, #eddebf57,#890009a9 ); padding: 1% 5% ;margin-left: 30%;margin-bottom: 5%;
+    cursor: pointer;}
+#btn-film, #btn-comics, #btn-tout{background-color: transparent;color: white;padding:1% 3%;
+     border-bottom: 2px solid rgb(43, 68, 94);cursor: pointer;border-top-color: var( --gredient-white);
+     border-right-color: var( --blue-color);} 
+.conteneurbtn{display: flex;gap: 1rem;margin-left: 20%;}     
+
+ 
