@@ -1,7 +1,7 @@
 
 html {box-sizing: border-box;
 font-size: 100%;padding-left: 5%;padding-right: 5%;}
-body{
+.body-home{
     margin: 0;
     padding: 0;
     background-color: black;
@@ -10,7 +10,8 @@ body{
     background-repeat: no-repeat;
     background-color: #000;
     background-size: contain;
-    border: 1px solid var( --gredient-white);
+    border: 2px solid var( --gredient-white);
+    overflow-x: hidden;
       
 }
 
@@ -40,6 +41,13 @@ body{
 
   p{font-family: 'space-grotesk';font-size: 18px;text-align: justify;margin: 5% 10% 5% 10%;}
   h2{font-family:'rajdhani-medium' ;font-size: 32px;margin: 2% 10%;}
+
+  /*animation of personnage pic*/
+
+  .photo:hover {
+    transform: scale(110%);
+  }
+  .photo{transition: 0.5s;}
     
 
  

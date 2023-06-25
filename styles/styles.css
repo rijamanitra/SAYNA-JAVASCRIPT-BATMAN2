@@ -5,7 +5,7 @@ html {
   padding-right: 5%;
 }
 
-body {
+.body-home {
   margin: 0;
   padding: 0;
   background-color: black;
@@ -14,7 +14,8 @@ body {
   background-repeat: no-repeat;
   background-color: #000;
   background-size: contain;
-  border: 1px solid var(--gredient-white);
+  border: 2px solid var(--gredient-white);
+  overflow-x: hidden;
 }
 
 :root {
@@ -48,8 +49,15 @@ h2 {
   margin: 2% 10%;
 }
 
-/*#game{padding-left:10%;}
-#home{padding-left:40%;padding-right: 10%;}*/
+/*animation of personnage pic*/
+.photo:hover {
+  transform: scale(110%);
+}
+
+.photo {
+  transition: 0.5s;
+}
+
 header {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -70,6 +78,63 @@ header #home {
 }
 header #game {
   margin-left: 5%;
+}
+
+.conteneurfooter1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.conteneurfooter1 .wbicon {
+  width: 2%;
+  height: 15%;
+  position: absolute;
+  left: 21%;
+}
+.conteneurfooter1 .textfoot {
+  font-size: 12px;
+  font-family: "space-grotesk";
+  padding-left: 15%;
+}
+
+.organisateur {
+  align-items: center;
+}
+
+.sayna {
+  margin-left: 40%;
+}
+
+.dc {
+  margin-right: 5%;
+}
+
+.tw, .ig, .fb, .x {
+  margin: 1%;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 0%;
+  top: 30%;
+}
+.scroll a {
+  padding-top: 25%;
+}
+.scroll img {
+  width: 80%;
+}
+.scroll .socialm {
+  width: 25%;
+  margin-right: 17%;
+}
+.scroll .socialm img {
+  padding-bottom: 50%;
+  padding-top: 50%;
 }
 
 .sec1 p {
@@ -146,7 +211,7 @@ header #game {
   top: 5%;
 }
 
-.sec5 img {
+.sec5 .justiceleague {
   width: 130%;
   margin-left: -15%;
   margin-right: 0%;
@@ -250,17 +315,53 @@ header #game {
   margin-left: 20%;
 }
 
-.scroll {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  right: 0.5%;
-  top: 30%;
+.guillemetg {
+  padding-left: 10%;
 }
-.scroll a {
-  padding-top: 25%;
+
+p {
+  color: white;
 }
-.scroll img {
-  width: 90%;
-}/*# sourceMappingURL=styles.css.map */
+
+.guillemetg {
+  width: 7%;
+  margin: 2% 0% 0 7%;
+}
+
+.citation {
+  font-family: "space-grotesk";
+  text-align: center;
+}
+
+.authorcit {
+  font-size: 12px;
+  font-family: "space-grotesk";
+  text-align: center;
+}
+
+.guillemetd {
+  width: 7%;
+  margin: 10%;
+  margin: 2% 2% 0 70%;
+}
+
+/*
+.guillemetgauche{
+  margin: 0 0;
+}
+
+.guillemetgauche img{
+  width: 5%;margin:  10% 0 0% 10%;
+}
+
+.citation{
+  font-size: 15px;text-align: center;
+}
+
+.auteurcitation{
+  font-size: 10px;text-align: center;
+}
+
+.guillemetdroite img{
+  width: 5%;margin:  0% 0% 0% 85%;
+} *//*# sourceMappingURL=styles.css.map */
