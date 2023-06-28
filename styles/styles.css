@@ -85,6 +85,7 @@ header #game {
   flex-direction: row;
   align-items: center;
   position: relative;
+  margin-top: 20%;
 }
 .conteneurfooter1 .wbicon {
   width: 2%;
@@ -364,4 +365,98 @@ p {
 
 .guillemetdroite img{
   width: 5%;margin:  0% 0% 0% 85%;
-} *//*# sourceMappingURL=styles.css.map */
+} */
+.flechegame {
+  margin: 50% 50% 5% 50%;
+}
+
+.connaissezvous {
+  text-align: center;
+  margin-left: 15%;
+}
+
+.picsec2 {
+  margin: 0 0% 5% 10%;
+}
+
+.demarrezquiz {
+  text-decoration: none;
+  color: white;
+  margin: 20% 0 0% 40%;
+  background: linear-gradient(80deg, rgba(156, 154, 154, 0.658), rgba(239, 138, 5, 0.493));
+  padding: 1.7% 7.5%;
+  font-family: "rajdhani-medium";
+  font-size: 18px;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.bodygame {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  background: url(/illustrations/Illustrations2/Batgame_1.png);
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size: contain;
+  border: 2px solid var(--gredient-white);
+  overflow-x: hidden;
+}
+
+.conteneurquiz {
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.conteneurcompte {
+  display: flex;
+  flex-direction: row;
+  margin: 10% 50%;
+}
+
+.miniconteneurquiz {
+  display: flex;
+  flex-direction: column;
+  width: 61%;
+}
+
+.imagequiz {
+  padding-left: 15%;
+}
+
+.question {
+  padding-left: 0%;
+}
+
+.conteneurrep {
+  padding-right: 20%;
+}
+
+.conteneurrep1, .conteneurrep2, .conteneurrep3 {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  margin-bottom: 5%;
+  font-size: 22px;
+  padding: 2% 0%;
+}
+.conteneurrep1 .rep1, .conteneurrep1 .rep2, .conteneurrep1 .rep3, .conteneurrep2 .rep1, .conteneurrep2 .rep2, .conteneurrep2 .rep3, .conteneurrep3 .rep1, .conteneurrep3 .rep2, .conteneurrep3 .rep3 {
+  padding-left: 5%;
+  font-family: "rajdhani-medium";
+}
+
+.nextquestion {
+  text-decoration: none;
+  color: white;
+  margin: 20% 0 0% 40%;
+  background: linear-gradient(80deg, rgba(156, 154, 154, 0.658), rgba(239, 138, 5, 0.493));
+  padding: 1.7% 7.5%;
+  font-family: "rajdhani-medium";
+  font-size: 18px;
+}/*# sourceMappingURL=styles.css.map */

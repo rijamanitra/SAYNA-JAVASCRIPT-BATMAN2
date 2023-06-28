@@ -6,8 +6,9 @@
     <meta name="author" content =" RAZAFIARIMANANA Rijamanitra Antonio"> 
     <title>Game page for Batman</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="/index.js" defer></script>
 </head>
-<body>
+<body class="bodygame" style="background-color: black;">
     <header>
         <a href="#"><img src="/illustrations/logo1/logohome.png" alt="" class="logohead" ></a> 
         <a href="#" id="home"> HOME  </a>
@@ -20,6 +21,7 @@
             <a href="">  <img src="/illustrations/logo1/icon_ig.png" alt=""></a>
             <a href=""> <img src="/illustrations/logo1/icon_tw.png" alt=""></a>
             <a href="">  <img src="/illustrations/logo1/logo_bat_flèche_2.png" alt=""></a>
+        </div>    
 
        <section>
             <h2>
@@ -27,12 +29,50 @@
                 little game...
             </h2>    
        </section>
-       <section>
-            <h2>
+       <section class="sec2game">
+        <img class="flechegame" src="/illustrations/logo1/flèche_down_header.png" alt="">
+            <h2 class=" connaissezvous">
                 connaissez vous bien le chevalier noir ?
             </h2>
-            <img src="/illustrations/Illustrations2/Batgame_2.png" alt="">
-            <a href="#">DÉMARRER LE QUIZ</a>
+            <img class="picsec2" src="/illustrations/Illustrations2/Batgame_2.png" alt="">
+            <a class="demarrezquiz" href="#">DÉMARRER LE QUIZ</a>
+       </section>
+       <section>
+        <div class="conteneurcompte">
+            <div class="compteur"></div>
+            <div class="totalcompte">/15</div>
+        </div>
+      
+        <div class="conteneurquiz">
+            <div class="imagequiz">
+                <img src="/batman 2.1/illustrations/Illustrations2/Batgame_3.png" alt="">
+            </div>
+            <div class="miniconteneurquiz">
+                <div class="question">
+                    
+                </div>
+                <div class="conteneurrep">
+                       
+                        <div class="conteneurrep1">
+                            <input type="checkbox" id="check1" name="checkbox1" >
+                            <div class="rep1"></div>
+                        </div> 
+                        <div class="conteneurrep2">
+                            <input type="checkbox" id="check2" name="checkbox2" >
+                            <div class="rep2"></div>
+                        </div> 
+                        <div class="conteneurrep3">
+                            <input type="checkbox" id="check3" name="checkbox3" >
+                            <div class="rep3"></div>
+                        </div>  
+
+                 </div>
+                
+
+            </div>
+        </div>
+        <a class="nextquestion" href="#">QUESTION SUIVANTES</a>
+
        </section>
        
        
@@ -67,3 +107,4 @@
     
     </footer> 
 </body>
+
