@@ -1,0 +1,11 @@
+html {box-sizing: border-box;
+    font-size: 100%;padding-left: 5%;padding-right: 5%;}
+.bodygame{ margin: 0;
+    padding: 0;
+    background-color: black;
+    color:white;background: url(/illustrations/Illustrations2/Batgame_1.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: contain;
+    border: 2px solid var( --gredient-white);
+    overflow-x: hidden;}    
