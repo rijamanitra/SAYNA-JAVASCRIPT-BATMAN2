@@ -227,12 +227,13 @@ let questions = [
 
 
 
-  let conteneurcompte = document.querySelectorAll('.conteneurcompte');
+ 
   let compteur = document.querySelector('.compteur'); //8
   let totalcompte = document.querySelector('.totalcompte');//7
 
   let conteneurquiz = document.querySelectorAll('.conteneurquiz');
   let demarrezquiz = document.querySelector('#demarrezquiz'); //3
+ 
  
 
   let imagequiz = document.querySelector('#personnage1'); //5
@@ -243,7 +244,7 @@ let questions = [
   let nextquestion = document.querySelector('#btnChange');//6
   let i=0;
   let j=0;
-
+  
 
   function valueChange () {
     if (i<=questions.length) {let element = questions[i].question;
@@ -304,6 +305,28 @@ let questions = [
 
   demarrezquiz.addEventListener("click", valueChange);
   nextquestion.addEventListener("click", valueChange);
+
+
+  demarrezquiz.addEventListener("click", function() {
+    
+    window.location.href = "#sujet";
+    demarrezquiz.style.visibility = "hidden";
+    conteneurReponse.style.display = "block";
+    
+    totalCompte.style.display = "block";
+    imageQuiz.style.display = "block";
+
+  });
+
+   let totalCompte = document.querySelector('.totalcompte');
+   totalCompte.style.display = "none";
+  let conteneurReponse = document.querySelector('#conteneurrep');
+  conteneurReponse.style.display = "none";
+  let imageQuiz = document.querySelector('#personnage1');
+  imageQuiz.style.display = "none";
+
+
+
 
 
 
