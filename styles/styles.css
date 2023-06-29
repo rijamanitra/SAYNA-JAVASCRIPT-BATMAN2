@@ -430,8 +430,11 @@ html {
   padding-left: 15%;
 }
 
-.question {
+.sujet {
   padding-left: 0%;
+  font-family: "rajdhani-medium";
+  font-size: 22px;
+  margin-bottom: 5%;
 }
 
 .conteneurrep {

@@ -50,25 +50,25 @@
       
         <div class="conteneurquiz">
             <div class="imagequiz">
-                <img src="/batman 2.1/illustrations/Illustrations2/Batgame_3.png" alt="">
+                <img id="personnage1" src="/batman 2.1/illustrations/Illustrations2/Batgame_3.png" alt="">
             </div>
             <div class="miniconteneurquiz">
-                <div class="question">
+                <div class="sujet" id="sujet">
                     
                 </div>
                 <div class="conteneurrep">
                        
                         <div class="conteneurrep1">
                             <input type="checkbox" id="check1" name="checkbox1" >
-                            <div class="rep1"></div>
+                            <div id="rep1" class="reponse"></div>
                         </div> 
                         <div class="conteneurrep2">
                             <input type="checkbox" id="check2" name="checkbox2" >
-                            <div class="rep2"></div>
+                            <div id="rep2" class="reponse"></div>
                         </div> 
                         <div class="conteneurrep3">
                             <input type="checkbox" id="check3" name="checkbox3" >
-                            <div class="rep3"></div>
+                            <div id="rep3" class="reponse"></div>
                         </div>  
 
                  </div>
@@ -76,7 +76,8 @@
 
             </div>
         </div>
-        <a class="nextquestion" href="#">QUESTION SUIVANTES</a>
+        <button class="nextquestion" id="btnChange">QUESTION SUIVANTES</button>
+        
 
        </section>
        
