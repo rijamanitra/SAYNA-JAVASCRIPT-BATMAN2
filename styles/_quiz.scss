@@ -1,5 +1,5 @@
 .conteneurquiz{display:flex;margin-bottom: 10%;}
- .conteneurcompte{display: flex;flex-direction: row;margin:10% 50%; }
+ .conteneurcompte{display: flex;flex-direction: row;margin:10% 50%;font-family: 'rajdhani-medium';font-size: 22px; }
  .miniconteneurquiz{display: flex;flex-direction: column;width:  61%;}
  .imagequiz{padding-left: 15%;}
 .sujet{padding-left: 0%;font-family: 'rajdhani-medium';font-size: 22px;margin-bottom: 5%;}
@@ -7,7 +7,7 @@
  .conteneurrep1,.conteneurrep2, .conteneurrep3 {display: flex;flex-direction: row;
      background-color: gray; margin-bottom: 5%;font-size: 22px;
     padding: 2% 0%; .rep1, .rep2, .rep3{ padding-left: 5%;font-family: 'rajdhani-medium';}}
-.nextquestion{text-decoration: none;color:white; margin: 20% 0 0% 40% ;
+.nextquestion{text-decoration: none;color:white; margin: 15% 0 0% 20% ;
     background: linear-gradient(80deg,rgba(156, 154, 154, 0.658) ,rgba(239, 138, 5, 0.493));
     padding: 1.7% 7.5%;font-family: 'rajdhani-medium';font-size: 18px;}
     

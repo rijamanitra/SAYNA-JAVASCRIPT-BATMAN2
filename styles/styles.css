@@ -376,13 +376,13 @@ p {
 }
 
 .picsec2 {
-  margin: 0 0% 5% 10%;
+  margin: 0 0% 0% 10%;
 }
 
 .demarrezquiz {
   text-decoration: none;
   color: white;
-  margin: 20% 0 0% 40%;
+  margin: 5% 0 0% 40%;
   background: linear-gradient(80deg, rgba(156, 154, 154, 0.658), rgba(239, 138, 5, 0.493));
   padding: 1.7% 7.5%;
   font-family: "rajdhani-medium";
@@ -418,6 +418,8 @@ html {
   display: flex;
   flex-direction: row;
   margin: 10% 50%;
+  font-family: "rajdhani-medium";
+  font-size: 22px;
 }
 
 .miniconteneurquiz {
@@ -457,7 +459,7 @@ html {
 .nextquestion {
   text-decoration: none;
   color: white;
-  margin: 20% 0 0% 40%;
+  margin: 15% 0 0% 20%;
   background: linear-gradient(80deg, rgba(156, 154, 154, 0.658), rgba(239, 138, 5, 0.493));
   padding: 1.7% 7.5%;
   font-family: "rajdhani-medium";
